@@ -4,4 +4,4 @@ if [ ! -e $GOPATH ]; then
 	bootstrap.sh
 fi
 
-go build ..
+godep go build ..
